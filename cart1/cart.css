@@ -1,0 +1,23 @@
+#container {
+    display: grid;
+    grid-template-columns: repeat(1, 850px);
+    gap: 10px;
+    padding: 20px;
+  }
+
+  #container > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #bdbdbd;
+    padding: 15px;
+  }
+
+  h2 {
+    margin-left: 20px;
+    color: teal;
+  }
+  #cartValue {
+    display: flex;
+    justify-content: flex-end;
+  }

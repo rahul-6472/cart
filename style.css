@@ -1,0 +1,46 @@
+body {
+  margin: auto;
+}
+
+#navbar {
+  /* width:100%; */
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: cornsilk;
+  padding: 20px;
+}
+
+#navbar .category {
+  width: 20%;
+}
+
+img {
+  width: 100px;
+  height: 40px;
+}
+
+#navbar .list {
+  display: flex;
+  justify-content: space-between;
+}
+
+#navbar .list li {
+  list-style-type: none;
+  font-size: 1.2rem;
+}
+
+a {
+  text-decoration: none;
+  color: #212121;
+}
+#navbar .signup {
+  margin-right: 20px;
+  font-size: 1.2rem;
+}
+
+#cart{
+  font-size:34px;
+  margin-right:20px;
+}
